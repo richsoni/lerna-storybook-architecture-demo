@@ -17,8 +17,8 @@ In `storybook-in-root`, [Storybook] is installed and configured within the Root 
 Each project works slightly differently.
 
 Follow the readme for each:
-* [storybook-as-package](https://github.com/richsoni/lerna-storybook-architecture-demo/blob/master/storybook-as-package/readme.md)
-* [storybook-in-root](https://github.com/richsoni/lerna-storybook-architecture-demo/blob/master/storybook-in-root/readme.md)
+* [storybook-as-package](https://github.com/richsoni/lerna-storybook-architecture-demo/blob/master/storybook-as-package)
+* [storybook-in-root](https://github.com/richsoni/lerna-storybook-architecture-demo/blob/master/storybook-in-root)
 
 [create-react-library]: https://github.com/transitive-bullshit/create-react-library
 [create-react-app]: https://github.com/facebook/create-react-app
