@@ -14,10 +14,11 @@ $ yarn install:all
 
 ### Servers
 
-This package only requires one command to develop:
+This package requires two server commands:
 
 ```
 yarn start:all
+yarn storybook
 ```
 
 [Yarn Workspaces]: https://yarnpkg.com/lang/en/docs/workspaces/
