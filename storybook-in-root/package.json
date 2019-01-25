@@ -1,0 +1,24 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build:all": "lerna run build --parallel",
+    "install:all": "lerna bootstrap && lerna link",
+    "start:all": "lerna run start --parallel",
+    "storybook": "start-storybook -p 9009",
+    "build-storybook": "build-storybook"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.5",
+    "@storybook/react": "^4.1.11",
+    "@storybook/addon-actions": "^4.1.11",
+    "@storybook/addon-links": "^4.1.11",
+    "@storybook/addons": "^4.1.11",
+    "@babel/core": "^7.2.2",
+    "babel-loader": "^8.0.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {}
+}

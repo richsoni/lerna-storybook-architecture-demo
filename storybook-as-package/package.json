@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build:all": "lerna run build --parallel",
+    "install:all": "lerna bootstrap && lerna link",
+    "start:all": "lerna run start --parallel"
+  },
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
